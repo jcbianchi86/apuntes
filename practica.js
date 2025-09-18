@@ -20,4 +20,5 @@ function saludar(a){
 }
 
 saludarNombreCompleto ("Juan", "Frederich", saludar);
+saludarNombreCompleto ("Sofía", "Malena", saludar);
 
