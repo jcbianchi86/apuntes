@@ -26,5 +26,5 @@ console.log(g1)
 
 // Spreading (Propagación)
 
-let plan = [...materias,"Pedagogía"]
+let plan = [...materias,"Pedagogía", "Didáctica"]
 console.log(plan)
