@@ -71,8 +71,16 @@ class PersonaGet {
     get banco(){
         return this.#banco
     }
+
+    set banco(nuevoBanco){
+        this.#banco = nuevoBanco
+    }
 }
 
 let persona4 = new PersonaGet("Mara", "Montiel", 39, "MP")
 
+let persona5 = new PersonaGet("José", "Álvarez", 24, "NaranjaX")
+
 console.log(persona4.banco)
+persona5.banco = "PersonalPay"
+console.log(persona5.banco)
